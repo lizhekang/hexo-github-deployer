@@ -1,6 +1,6 @@
 {
   "name": "hexo-github-deployer",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "hexo github deployer.",
   "main": "index.js",
   "scripts": {
@@ -27,5 +27,9 @@
     "moment": "^2.15.1",
     "q": "^1.4.1",
     "shelljs": "^0.7.4"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.1.0"
   }
 }
