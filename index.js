@@ -10,6 +10,7 @@ hexo.config.server = assign({
 hexo.extend.console.register('github-deployer', 'Start github deployer.', {
     desc: 'Start github deployer and wait for get change Arrived.',
     options: [
+        {name: '-u, --uri', desc: 'Override the default post uri.'},
         {name: '-p, --port', desc: 'Override the default port.'},
         {name: '-i, --ip', desc: 'Override the default ip.'},
         {name: '-r, --ref', desc: 'Override the default ref.'}
