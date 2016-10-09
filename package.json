@@ -1,6 +1,6 @@
 {
   "name": "hexo-github-deployer",
-  "version": "0.0.5",
+  "version": "0.1.0",
   "description": "hexo github deployer.",
   "main": "index.js",
   "scripts": {
